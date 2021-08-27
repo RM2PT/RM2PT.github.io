@@ -36,7 +36,7 @@ GXNU group focuses on model transformation between Problem Frames and UML-based 
 
 ## MPI Group
 RM2PT is being integrated with databases and blockchains with Prof. Ke's group in Macao Polytechnic Institute.
-- Wei Ke (PI)
+- [Wei Ke](https://www.researchgate.net/profile/Wei-Ke-5) (PI)
 - Edmond Hoi (database)
 - Qiqi Gu (blockchain)
 
