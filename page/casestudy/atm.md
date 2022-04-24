@@ -214,6 +214,7 @@ these constraints could include
 		</td>
 	</tr>
 </table>
+
 ### 1.3.3  User characteristics
 
 <table>
