@@ -59,6 +59,10 @@ The transformation rule contains two parts: the above section is an OCL expressi
 <center class="half">
     <img src="../../imgs/RM2Doc/outline.png" alt="outline" style="zoom: 50%;" /><img src="../../imgs/RM2Doc/mapping.png" alt="mapping" style="zoom: 60%;"/>
 </center>
+<table><tr>
+<td><img src="../../imgs/RM2Doc/outline.png" alt="outline" style="zoom: 84%;"  border=0></td>
+<td><img src="../../imgs/RM2Doc/mapping.png"alt="mapping"  style="zoom: 100%;" border=0></td>
+</tr></table>
 
 
 
