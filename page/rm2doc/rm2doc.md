@@ -57,8 +57,9 @@ The transformation rule contains two parts: the above section is an OCL expressi
 #### Generate requirements document
 
 <center class="half">
-    <img src="../../imgs/RM2Doc/outline.png" alt="outline" style="zoom: 72.5%;" /><img src="../../imgs/RM2Doc/mapping.png" alt="mapping" style="zoom: 88%;"/>
+    <img src="../../imgs/RM2Doc/outline.png" alt="outline" style="zoom: 50%;" /><img src="../../imgs/RM2Doc/mapping.png" alt="mapping" style="zoom: 60%;"/>
 </center>
+
 
 
 RM2Doc can generate five parts of a document:
