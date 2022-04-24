@@ -5,7 +5,7 @@ permalink: /casestudy/libms/
 typora-root-url: ../../../rm2pt-website
 ---
 
-# Supermarket System - CoCoME
+# Library Management System - LibMS
 
 
 ### LibMS Requirements Model - Fully Download
