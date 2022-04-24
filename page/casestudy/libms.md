@@ -392,6 +392,7 @@ these constraints could include
 		</td>
 	</tr>
 </table>
+
 ## 2.3  User characteristics
 
 <table>
@@ -5426,7 +5427,7 @@ This should specify the logical requirements for any information that is to be p
 ### 3.3.1  User interfaces
 This should specify the following:
 - a) The logical characteristics of each interface between the software product and its users. This includes those configuration characteristics (e.g., required screen formats, page or window layouts, content of any reports or menus, or availability of programmable function keys) necessary to accomplish the software requirements.
-- b) All the aspects of optimizing the interface with the person who must use the system. This may simply comprise a list of do��s and don��ts on how the system will appear to the user. One example may be a requirement for the option of long or short error messages. Like all others, these requirements should be verifiable, e.g., ��a clerk typist grade 4 can do function X in Z min after 1 h of training�� rather than ��a typist can do function X.�� (This may also be specified in the Software System Attributes under a section titled Ease of Use.) 
+- b) All the aspects of optimizing the interface with the person who must use the system. This may simply comprise a list of do’s and don’ts on how the system will appear to the user. One example may be a requirement for the option of long or short error messages. Like all others, these requirements should be verifiable, e.g., “a clerk typist grade 4 can do function X in Z min after 1 h of training” rather than “a typist can do function X.” (This may also be specified in the Software System Attributes under a section titled Ease of Use.) 
 ### 3.3.2  Hardware interfaces
 This should specify the logical characteristics of each interface between the software product and the hardware components of the system. This includes configuration characteristics (number of ports, instruction sets, etc.). It also covers such matters as what devices are to be supported, how they are to be supported, and protocols. For example, terminal support may specify full-screen support as opposed to line-by-line support.
 ### 3.3.3  Software interfaces
