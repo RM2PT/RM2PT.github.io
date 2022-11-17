@@ -25,6 +25,7 @@ author:
 <p>&nbsp;</p>
 <blockquote><p><code>pv</code> - Pipe Viewer - is a terminal-based tool for monitoring the progress of data through a pipeline. It can be inserted into any normal pipeline between two processes to give a visual indication of how quickly data is passing through, how long it has taken, how near to completion it is, and an estimate of how long it will be until completion.</p></blockquote>
 <p><strong>Installation</strong></p>
+<<<<<<< HEAD
 <pre><code>sudo apt-get install pv
 </code></pre>
 <p><strong>Example</strong></p>
@@ -32,6 +33,15 @@ author:
 </code></pre>
 <p><strong>Output</strong></p>
 <pre><code>1,74MB 0:00:09 [ 198kB/s] [      &lt;=&gt;                               ]
+=======
+<pre><code>sudo apt-get install pv
+</code></pre>
+<p><strong>Example</strong></p>
+<pre><code>dd if=/dev/urandom | pv | dd of=/dev/null
+</code></pre>
+<p><strong>Output</strong></p>
+<pre><code>1,74MB 0:00:09 [ 198kB/s] [      &lt;=&gt;                               ]
+>>>>>>> 624b6a9 (add inputGen-tutorial.md and imgs)
 </code></pre>
 <p>For Pi backup and restore</p>
 <p>dd if=/dev/xxx | pv | dd of=/targetpath/pi.img</p>

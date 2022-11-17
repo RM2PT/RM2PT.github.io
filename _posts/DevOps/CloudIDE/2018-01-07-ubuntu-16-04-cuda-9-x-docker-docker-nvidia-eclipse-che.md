@@ -32,10 +32,17 @@ author:
 </div>
 <div class="language-bash highlighter-rouge">
 <div class="highlight">
+<<<<<<< HEAD
 <pre class="highlight"><code><span class="nv">$ </span><span class="nb">sudo </span>apt-get install <span class="se">\</span>
     apt-transport-https <span class="se">\</span>
     ca-certificates <span class="se">\</span>
     curl <span class="se">\</span>
+=======
+<pre class="highlight"><code><span class="nv">$ </span><span class="nb">sudo </span>apt-get install <span class="se">\</span>
+    apt-transport-https <span class="se">\</span>
+    ca-certificates <span class="se">\</span>
+    curl <span class="se">\</span>
+>>>>>>> 624b6a9 (add inputGen-tutorial.md and imgs)
     software-properties-common</code></pre>
 </div>
 </div>
@@ -48,9 +55,15 @@ author:
 <div id="x86_64_repo" class="tab-pane fade in active">
 <div class="language-bash highlighter-rouge">
 <div class="highlight">
+<<<<<<< HEAD
 <pre class="highlight"><code><span class="nv">$ </span><span class="nb">sudo </span>add-apt-repository <span class="se">\</span>
    <span class="s2">"deb [arch=amd64] https://download.docker.com/linux/ubuntu </span><span class="se">\</span>
    <span class="k">$(</span>lsb_release <span class="nt">-cs</span><span class="k">)</span> <span class="se">\</span><span class="s2">
+=======
+<pre class="highlight"><code><span class="nv">$ </span><span class="nb">sudo </span>add-apt-repository <span class="se">\</span>
+   <span class="s2">"deb [arch=amd64] https://download.docker.com/linux/ubuntu </span><span class="se">\</span>
+   <span class="k">$(</span>lsb_release <span class="nt">-cs</span><span class="k">)</span> <span class="se">\</span><span class="s2">
+>>>>>>> 624b6a9 (add inputGen-tutorial.md and imgs)
    stable"</span></code></pre>
 </div>
 </div>
@@ -68,7 +81,11 @@ author:
 </div>
 <div class="language-bash highlighter-rouge">
 <div class="highlight">
+<<<<<<< HEAD
 <pre class="highlight"><code><span class="nv">$ </span><span class="nb">sudo </span>docker run hello-world
+=======
+<pre class="highlight"><code><span class="nv">$ </span><span class="nb">sudo </span>docker run hello-world
+>>>>>>> 624b6a9 (add inputGen-tutorial.md and imgs)
 </code></pre>
 </div>
 </div>
@@ -76,6 +93,7 @@ author:
 <blockquote><p>https://github.com/NVIDIA/nvidia-docker</p></blockquote>
 <h4><a id="user-content-xenial-x86_64" class="anchor" href="https://github.com/NVIDIA/nvidia-docker#xenial-x86_64" aria-hidden="true"></a>Xenial x86_64 - run the following bash script</h4>
 <div class="highlight highlight-source-shell">
+<<<<<<< HEAD
 <pre><span class="pl-c"># If you have nvidia-docker 1.0 installed: we need to remove it and all existing GPU containers</span>
 docker volume ls -q -f driver=nvidia-docker <span class="pl-k">|</span> xargs -r -I{} -n1 docker ps -q -a -f volume={} <span class="pl-k">|</span> xargs -r docker rm -f
 sudo apt-get purge -y nvidia-docker
@@ -93,6 +111,25 @@ sudo pkill -SIGHUP dockerd
 
 <span class="pl-c"># Test nvidia-smi with the latest official CUDA image</span>
 docker run --runtime=nvidia --rm nvidia/cuda nvidia-smi
+=======
+<pre><span class="pl-c"># If you have nvidia-docker 1.0 installed: we need to remove it and all existing GPU containers</span>
+docker volume ls -q -f driver=nvidia-docker <span class="pl-k">|</span> xargs -r -I{} -n1 docker ps -q -a -f volume={} <span class="pl-k">|</span> xargs -r docker rm -f
+sudo apt-get purge -y nvidia-docker
+
+<span class="pl-c"># Add the package repositories</span>
+curl -s -L https://nvidia.github.io/nvidia-docker/gpgkey <span class="pl-k">|</span> \
+  sudo apt-key add -
+curl -s -L https://nvidia.github.io/nvidia-docker/ubuntu16.04/amd64/nvidia-docker.list <span class="pl-k">|</span> \
+  sudo tee /etc/apt/sources.list.d/nvidia-docker.list
+sudo apt-get update
+
+<span class="pl-c"># Install nvidia-docker2 and reload the Docker daemon configuration</span>
+sudo apt-get install -y nvidia-docker2
+sudo pkill -SIGHUP dockerd
+
+<span class="pl-c"># Test nvidia-smi with the latest official CUDA image</span>
+docker run --runtime=nvidia --rm nvidia/cuda nvidia-smi
+>>>>>>> 624b6a9 (add inputGen-tutorial.md and imgs)
 </pre>
 </div>
 <h1><strong>Eclipse Che</strong></h1>
