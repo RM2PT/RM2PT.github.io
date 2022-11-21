@@ -14,45 +14,32 @@ BUAA group focus on Automatic Software Engineering such as Models Transformation
 - Yang Zhang (Automatic Generation of Microservices Back-ends from Requirements Model)
 - Zhen Tian (Automatic Design Generation from Requirements)
 - Yongqi Pu (Automatic Requirements Transformation)
+- Tianshu Bao (Automatic Generation of SRS Documentation from Requirements Models)
 - Wenxiao Song (Model-Driven System Engineering for Mission Task)
 - Yong Zhu (Automatic GUI Generation from Requirements and Design Images)
+- Jie Zhang (Automatic GUI Generation from Design Images)
 - Runkun Zhang (Automatic GUI Generation from Requirements Model)
 - Qilong Shi (Automatic OO Code Generation from Un-complete OO Contract)
 - Peiye Yang (Automatic Localization and Fixing Errors of System Operation Contract, co-supervised with Li Zhang)
 - Yihui Jian (Automatic Generation of Dependable Enterprise Application from Requirements Model, co-supervised with Li Zhang)
-- Zhengyang Zhao (Automatic Golang Code Generation)
+
 
 ### Alumni
-- Zhaotian Li (Postgraduate Student in BUAA)
-- Yibo Liu
-- Jie Zhang (Bytedance)
 - Yiming Zhu (Bytedance)
+- Zhaotian Li (Service Classification, Postgraduate Student in BUAA)
 - Eudrick (Zambia)
-- Tianshu Bao 
-- Zhiyang Cheng (Postgraduate Student in TsingHua)
-- Fan Zhang
-- Zhaoyun Xu
-- Jie Chen
-- Chen Chen
-- Yang Zhao
-- Lingyu Guo
-- Pengfeng Huang
 
+## BUAA GUI Group
+GUI group focus on Automatic Generation of Software GUI based Deep Learning Methods.
+- [Qian Yu](https://scholar.google.com/citations?user=mmm90qgAAAAJ&hl=en) (PI)
+- Yanqing Wang
 
 ## NEPU Group
 RM2PT is being integrated with AI system and MicroServices Design and Modeling with Prof. Gao's group in Northeast Petroleum Univeristy.
 - [Juntao Gao](https://www.researchgate.net/profile/Juntao-Gao-2) (PI)
-- Bingjie Zeng (Learning-enhanced System Modeling and Design)
+- Bingjie Zeng (AI System Modeling and Design)
 - Shuang Chen (Microservices Modeling and Design)
-- Shuanglong Chang (Prototype Input Generation for Rapid Requirments Validation)
-- Zhe Liu (Automatic Generation of DApp from Requirements Models)
-- Yuyu Cheng (Metaverse)
-
-## BUAA GUI Group
-GUI group focus on Automatic Generation of Software GUI based Deep Learning Methods.
-
-- [Qian Yu](https://scholar.google.com/citations?user=mmm90qgAAAAJ&hl=en) (PI)
-- Yanqing Wang
+- Shuanglong Chang (Test Input Generation for Requirments Validation)
 
 ## BJUT Group
 RM2PT is being integrated with Goal Model for CPS requirements modeling with Prof. Li's Group in Beijing University Of Technology.
