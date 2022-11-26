@@ -1,4 +1,4 @@
----
+﻿---
 layout: page
 title: InputGen
 permalink: /advs/inputgen
@@ -62,11 +62,10 @@ Before using the prototype to validate the requirements, we can use the Load Fil
 <img src="../../imgs/InputGen/11loadfile.png" alt="11loadfile" style="zoom: 50%;" />
 
 #### Now, you can use the refactored prototype to validate the requirements.
-Now, you can the refactored prototype to validate the requirements.
+Now, you can use the refactored prototype to validate the requirements.
 
 #### For example,  in the sysytem operation enterItem, InputGen 
-For example,in the sysytem operation enterItem,you can choose to click the LoadFromFile button to generate input data, if you think that the input data does not meet your requirements, you can
-also click the input box to choose other candidates.Moreover, you can click the InputReset button to reset all inputs and manually input them yourself.
+For example, in the sysytem operation enterItem, you can choose to click the LoadFromFile button to generate input data, if you think that the input data does not meet your requirements, you can also click the input box to choose other candidates. Moreover, you can click the InputReset button to reset all inputs and manually input them by yourself.
 
 <img src="../../imgs/InputGen/7enterItem.png" alt="7enterItem" style="zoom: 50%;" />
 
