@@ -22,7 +22,12 @@ author:
 <p>svn copy ^/trunk/J-BHI\(arch\) ^/tags/J-BHI(arch)v1 -m "architecure paper draft v1"</p>
 <p>svn update</p>
 <p>if encounter :</p>
+<<<<<<< HEAD
 <pre>Committing transaction...
 
+=======
+<pre>Committing transaction...
+
+>>>>>>> 624b6a9 (add inputGen-tutorial.md and imgs)
 svn: E160013: File not found: transaction '141-45', path '/tags/backup'</pre>
 <p>add --parents into the copy command</p>
