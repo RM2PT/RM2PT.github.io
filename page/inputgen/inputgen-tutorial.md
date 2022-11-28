@@ -16,7 +16,7 @@ permalink: /advs/inputgen
 3. **Supporting rapid requirements validation**. Compared with the original prototype generated from RM2PT, InputGen can automatically refactor the generatedthen prototype from the same *requirements model* without any templates. Then refactoried prototype can automatically generate the validated input data of the system operation, this will boost the validation process.
 
 The video cast its feature is listed as follows (Youtube):
-<iframe class="uk-width-1-3@m" width="560" height="315" src="https://youtu.be/RtPybSKmXFw" frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>RM2Doc Youtube Video</iframe>
+<iframe class="uk-width-1-3@m" width="560" height="315" src="https://www.youtube.com/embed/RtPybSKmXFw" frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>RM2Doc Youtube Video</iframe>
 
 
 ### InputGen Installation
@@ -39,16 +39,16 @@ Type http://rm2pt.com/InputGen-UpdateSite in the Work with field, select RM2Doc 
 
 **If the update site does not work**, you can choose to install it offline. Click [here](https://github.com/RM2PT/InputGen-UpdateSite/releases/download/v1.0.0/com.rm2pt.generator.inputgen.updatesite-1.0.0-SNAPSHOT.zip) to download InputGen. Follow the steps below to install.
 
-<img src="../../imgs/InputGen/2offline.png" alt="2offline" width="60%" height="60%" />
+<img src="../../imgs/InputGen/2offline.png" alt="2offline" width="70%" height="70%" />
 
-<img src="../../imgs/InputGen/3load.png" alt="3load" width="60%" height="60%" />
+<img src="../../imgs/InputGen/3load.png" alt="3load" width="70%" height="70%" />
 
-<img src="../../imgs/InputGen/4add.png" alt="4add" width="60%" height="60%" />
+<img src="../../imgs/InputGen/4add.png" alt="4add" width="70%" height="70%" />
 
-<img src="../../imgs/InputGen/5next.png" alt="5next" width="60%" height="60%" />
+<img src="../../imgs/InputGen/5next.png" alt="5next" width="70%" height="70%" />
 
 
-<img src="../../imgs/InputGen/6installanyway.png" alt="6installanyway" width="30%" height="30%" />
+<img src="../../imgs/InputGen/6installanyway.png" alt="6installanyway" width="70%" height="70%" />
 
 
 ## InputGen Tutorial
@@ -60,7 +60,7 @@ In order to generate the prototype inputs, you need a requirement model, the **R
 
 ### Input of InputGen — Requirements Model
 
-<img src="../../imgs/InputGen/rm.png" alt="rm" style="zoom: 60%;" />
+<img src="../../imgs/InputGen/rm.png" alt="rm" width="80%" height="80%" />
 
 The input to InputGen is a UML requirements model with OCL constraints. The model includes: a conceptual class diagram, a use case diagram, system sequence diagrams, contracts of and system operations.
 
@@ -75,22 +75,22 @@ The input to InputGen is a UML requirements model with OCL constraints. The mode
 ### 1) Generate a prototype from the requirement model
 After you import a requirements model, first, we use the RM2PT to generate a prototype from the requirements model by right click on `cocome.remodel` -> `RM2PT`-> `OO Prototype`-> ` Generate Desktop Prototype`
 
-<img src="../../imgs/InputGen/10generateprototype.png" alt="10generateprototype" width="60%" height="60%" />
+<img src="../../imgs/InputGen/10generateprototype.png" alt="10generateprototype" width="70%" height="70%" />
 
 ### 2) Run the InputGen tool to refactor the prototype
 after you generate a prototype, we use the InputGen to refactor the prototype from the requirements model by right click on `cocome.remodel` -> `RM2PT-dev`-> `InputGen`, and update the project.
 
-<img src="../../imgs/InputGen/9refactor.png" alt="9refactor" width="60%" height="60%" />
+<img src="../../imgs/InputGen/9refactor.png" alt="9refactor" width="70%" height="70%" />
 
 ### 3) The third step is to run the refactored prototype
 Run the refactored prototype to validate the requirements by right click on `COCOMEPrototype` -> `pom.xml`-> `run`-> `maven build`
 .
-<img src="../../imgs/InputGen/8runprototype.png" alt="8runprototype" width="60%" height="60%" />
+<img src="../../imgs/InputGen/8runprototype.png" alt="8runprototype" width="70%" height="70%" />
 
 ### 4) Importing the initial data
 Before using the prototype to validate the requirements, we can use the Load File button to automatically load the initial data through the external interface, without manually adding it after modeling the administrator. We provide an external CoCoME yaml file, you can click [here](https://github.com/RM2PT/InputGen-UpdateSite/releases/download/v1.0.0/test.yaml) to download.
 
-<img src="../../imgs/InputGen/11loadfile.png" alt="11loadfile" width="60%" height="60%" />
+<img src="../../imgs/InputGen/11loadfile.png" alt="11loadfile" width="70%" height="70%" />
 
 ### 5) You can use the refactored prototype to validate the requirements.
 
@@ -108,4 +108,4 @@ After automatically refactoring and enhancing the generated prototype by the too
  In the system operation enterItem, you can choose to click the LoadFromState button to generate input data, if you think that the input data does not meet your requirements, you can also click the input box to choose other candidates. Moreover, you can click the InputReset button to reset all inputs and manually input them by yourself.
 
 The image below shows a part of CoCoME's automatic input data generation of the system operation enterItem. For more details, please see [CaseStudies](https://github.com/RM2PT/CaseStudies).
-<img src="../../imgs/InputGen/7enterItem.png" alt="7enterItem" width="60%" height="60%" />
+<img src="../../imgs/InputGen/7enterItem.png" alt="7enterItem" width="70%" height="70%" />
