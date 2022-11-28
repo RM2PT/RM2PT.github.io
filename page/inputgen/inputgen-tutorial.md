@@ -18,6 +18,9 @@ permalink: /advs/inputgen
 The video cast its feature is listed as follows (Youtube):
 <iframe class="uk-width-1-3@m" width="560" height="315" src="https://www.youtube.com/embed/lrs57CjzmU8" frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>RM2DM Youtube Video</iframe>
 
+The video cast its feature is listed as follows (Youtube):
+<iframe class="uk-width-1-3@m" width="560" height="315" src="https://www.youtube.com/embed/4z0Z5mrLfBc" frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>RM2Doc Youtube Video</iframe>
+
 
 ### InputGen Installation
 
@@ -108,4 +111,5 @@ After automatically refactoring and enhancing the generated prototype by the too
  In the system operation enterItem, you can choose to click the LoadFromState button to generate input data, if you think that the input data does not meet your requirements, you can also click the input box to choose other candidates. Moreover, you can click the InputReset button to reset all inputs and manually input them by yourself.
 
 The image below shows a part of CoCoME's automatic input data generation of the system operation enterItem. For more details, please see [CaseStudies](https://github.com/RM2PT/CaseStudies).
+
 <img src="../../imgs/InputGen/7enterItem.png" alt="7enterItem" width="70%" height="70%" />
