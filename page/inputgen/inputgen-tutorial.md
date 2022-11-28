@@ -17,7 +17,7 @@ permalink: /advs/inputgen
 
 The video cast its feature is listed as follows (Youtube):
 
-<iframe class="uk-width-1-3@m" width="560" height="315" src="https://www.youtube.com/embed/RtPybSKmXFw" frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>RM2DM Youtube Video</iframe>
+<iframe src="https://www.youtube.com/embed/RtPybSKmXFw" width="700px" height="500px" frameborder="0" scrolling="no"> </iframe>
 
 
 ### InputGen Installation
